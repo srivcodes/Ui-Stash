@@ -1,0 +1,162 @@
+:root {
+  --padding: 1rem;
+  --margin: 1rem;
+  --primary-color: #ff8fab;
+  --primary-dark: #fb6f92;
+  --primary-light: #ffb3c6;
+  --text: black;
+}
+.colored-text {
+  color: var(--primary-color);
+}
+a {
+  text-decoration: none;
+}
+code {
+  background-color: var(--primary-light);
+  padding: var(--padding);
+  color: var(--text);
+  font-size: 1rem;
+}
+body {
+  margin: 0px;
+  color: var(--text);
+}
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--primary-light);
+  border-radius: 1rem;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-dark);
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  height: 15vh;
+  background-color: var(--primary-color);
+  z-index: 1;
+  padding: 0 1.5rem;
+}
+header > .fa-github {
+  font-size: 3rem;
+  color: var(--text);
+  background-color: var(--primary-color);
+  margin-left: auto;
+  height: 100%;
+  line-height: 15vh;
+  padding: 0 var(--padding);
+}
+header > .fa-github:hover {
+  background-color: var(--primary-dark);
+}
+header > .button {
+  font-weight: bold;
+  border: solid var(--text);
+}
+.download {
+  padding: 0.5rem var(--padding);
+}
+.components {
+  position: fixed;
+  top: 15vh;
+  left: 0;
+  height: 85vh;
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  font-size: 1.25rem;
+}
+.components > h2 {
+  padding: var(--padding);
+  color: var(--primary-color);
+  margin: 0;
+}
+.side-nav {
+  overflow-y: scroll;
+}
+.side-nav > ul {
+  padding: 0;
+}
+.side-nav::-webkit-scrollbar {
+  width: 1rem;
+}
+.side-nav::-webkit-scrollbar-thumb {
+  background-color: var(--primary-light);
+  border-radius: 1rem;
+}
+.side-nav::-webkit-scrollbar-thumb:hover {
+  background-color: var(--primary-dark);
+}
+.installation {
+  border-bottom: solid 1rem;
+}
+.list {
+  padding-left: 2rem;
+}
+.list > a {
+  text-decoration: none;
+}
+.docs {
+  margin-top: 15vh;
+  margin-left: 20vw;
+  padding: 2rem;
+  font-size: 1.25rem;
+}
+.intro > a {
+  font-size: 1rem;
+}
+footer {
+  margin-left: 20vw;
+  text-align: center;
+  padding: var(--padding);
+  background-color: var(--text);
+  color: var(--primary-color);
+}
+footer > h3 > a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+footer > h3 > a:hover {
+  text-decoration: underline;
+}
+footer > nav > .fa-github {
+  margin: 0 var(--margin) 0 var(--margin);
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+footer > nav > .fa-github:hover {
+  background-color: var(--primary-color);
+  color: var(--text);
+}
+footer > nav > .fa-linkedin {
+  margin: 0 var(--margin) 0 var(--margin);
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  color: var(--primary-color);
+}
+footer > nav > .fa-linkedin:hover {
+  background-color: var(--primary-color);
+  color: var(--text);
+}
+footer > nav > .fa-twitter {
+  margin: 0 var(--margin) 0 var(--margin);
+  font-size: 2rem;
+  padding: 0.5rem;
+  border-radius: 50%;
+  color: var(--primary-color);
+}
+footer > nav > .fa-twitter:hover {
+  background-color: var(--primary-color);
+  color: var(--text);
+}
