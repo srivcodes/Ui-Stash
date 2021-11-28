@@ -4,6 +4,10 @@
   --primary-color: #ff8fab;
   --primary-dark: #fb6f92;
   --primary-light: #ffb3c6;
+  /* for input field component */
+  --grey-color: #4D4D4D;
+  --green-color: #33691e;
+  --red-color: #FF0000;
   --text: black;
 }
 
@@ -13,20 +17,20 @@
   border-radius: 4px;
 }
 .alert--success {
-  background-color: hsl(120, 100%, 80%);
-  color: hsl(120, 100%, 20%);
+  background-color: #99FF99;
+  color: #006600;
 }
 .alert--info {
-  background-color: hsl(240, 100%, 80%);
-  color: hsl(240, 100%, 20%);
+  background-color: #9999FF;
+  color: #000066;
 }
 .alert--warning {
-  background-color: hsl(60, 100%, 80%);
-  color: hsl(60, 100%, 20%);
+  background-color: #FFFF99;
+  color:#666600;
 }
 .alert--error {
-  background-color: hsl(0, 100%, 80%);
-  color: hsl(0, 100%, 20%);
+  background-color: #FF9999;
+  color: #660000;
 }
 
 /* Avatar */
@@ -278,42 +282,42 @@
 
 /* inputs */
 .input {
-  background-color: hsl(0, 0%, 70%);
+  background-color: #B3B3B3;
   border-radius: 4px 4px 0px 0px;
   border: none;
-  border-bottom: solid hsl(0, 0%, 30%) 2px;
+  border-bottom: solid var(--grey-color) 2px;
   margin: 10px;
   color: var(--text);
 }
 .input::placeholder {
-  color: hsl(0, 0%, 30%);
+  color: var(--grey-color);
 }
 .input:focus {
-  outline: solid hsl(0, 0%, 30%);
+  outline: solid var(--grey-color);
   border-radius: 0;
   border: none;
 }
 .input--valid {
-  border-bottom: solid #33691e 2px;
+  border-bottom: solid var(--green-color) 2px;
   background-color: #9ccc65;
 }
 .input--valid::placeholder {
   color: #33691e;
 }
 .input--valid:focus {
-  outline: solid #33691e;
+  outline: solid var(--green-color);
   border-radius: 0;
   border: none;
 }
 .input--invalid {
-  border-bottom: solid hsl(0, 100%, 50%) 2px;
-  background-color: hsl(0, 100%, 90%);
+  border-bottom: solid var(--red-color) 2px;
+  background-color: #FFCCCC;
 }
 .input--invalid::placeholder {
-  color: hsl(0, 100%, 50%);
+  color: var(--red-color);
 }
 .input--invalid:focus {
-  outline: solid hsl(0, 100%, 50%);
+  outline: solid var(--red-color);
   border-radius: 0;
   border: none;
 }
