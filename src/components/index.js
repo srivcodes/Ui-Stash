@@ -12,7 +12,7 @@ import { Slider } from "./slider.js";
 import { SimplifiedGrid } from "./simplifiedGrid";
 import { Snackbar } from "./snackbar.js";
 import { TextUtilities } from "./textUtilities";
-
+import { Tooltip } from "./tooltip";
 export {
   Avatar,
   Alert,
@@ -27,5 +27,6 @@ export {
   Slider,
   SimplifiedGrid,
   Snackbar,
-  TextUtilities
+  TextUtilities,
+  Tooltip,
 };

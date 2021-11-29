@@ -16,7 +16,8 @@ import {
   Slider,
   SimplifiedGrid,
   Snackbar,
-  TextUtilities
+  TextUtilities,
+  Tooltip,
 } from "./components/index";
 
 export default function ComponentLibrary() {
@@ -36,7 +37,8 @@ export default function ComponentLibrary() {
     "Slider",
     "Simplified Grid",
     "Snackbar",
-    "Text Utilities"
+    "Text Utilities",
+    "Tooltip"
   ];
   const componentClickHandler = (item) => {
     switch (item) {
@@ -81,6 +83,9 @@ export default function ComponentLibrary() {
         break;
       case "Text Utilities":
         setRenderComponent(<TextUtilities />);
+        break;
+      case "Tooltip":
+        setRenderComponent(<Tooltip />);
         break;
       default:
         setRenderComponent();

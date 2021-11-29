@@ -471,3 +471,54 @@
 .text--grey {
   color: grey;
 }
+
+/* Tooltip  */
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: var(--primary-light);
+  color: var(--text);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* for bottom position  */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
+/* for terms and conditions  */
+.tooltipTerms {
+  position: relative;
+}
+
+.tooltipTerms .tooltiptextTerms {
+  visibility: hidden;
+  width: 700px;
+  background-color: var(--primary-light);
+  color: var(--text);
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  /* for bottom position  */
+  position: absolute;
+  z-index: 1;
+  top: 120%;
+  left: 25%;
+  margin-left: -60px;
+}
+
+.tooltipTerms:hover .tooltiptextTerms {
+  visibility: visible;
+}
+
