@@ -3,8 +3,10 @@ export const Tooltip = () => {
         <section className="--text">
         <h2 className="colored-text">Tooltip</h2>
         <p>
-          Text Utilities are self-descriptive, single-purpose CSS classes for
-          styling the text.{" "}
+        Tooltips are user-triggered messages that provide additional information about a page element or feature.
+         Although tooltips aren’t new to the web, they are often incorrectly implemented<br/><br/>
+         A tooltip is a brief, informative message that appears when a user interacts with an element in a graphical user interface (GUI). 
+         Tooltips are usually initiated in one of two ways: through a mouse-hover gesture or through a keyboard-hover gesture.
         </p>
         <body style={{textAlign:"center"}}>
         <p className="colored-text heading">Sample Tooltip</p>
