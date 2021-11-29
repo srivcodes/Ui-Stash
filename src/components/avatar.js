@@ -3,8 +3,14 @@ export const Avatar = () => {
     <section className="--text">
       <h2 className="colored-text">Avatar</h2>
       <p>
-        The Avatar component is used to represent a user, and displays the
+      The Avatar component is used to represent a user, and displays the
         profile picture, initials or fallback icon.
+        <br/><br/>
+        P.S Box-shadow property can have values such as none, offset-x|offset-y|color, 
+        offset-x|offset-y|blur-raduis|color,<br/>
+        inset|offset-x|offset-y|color one can add any number of shadows seperated by a ",". 
+        Also global keywords as in inherit,
+        initial, revert and unset may be used.
       </p>
       <p className="heading">Image Avatar - to display profile pictures</p>
       <section style={{ display: "flex" }}>

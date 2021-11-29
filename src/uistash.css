@@ -17,7 +17,7 @@
   border-radius: 4px;
 }
 .alert--success {
-  background-color: #99FF99;
+  background-color: #70db70;
   color: #006600;
 }
 .alert--info {
@@ -52,8 +52,9 @@
   height: 88px;
   border-radius: 50%;
   margin: var(--margin);
-  box-shadow: #00000066 0px 2px 4px,
-  #0000004d 0px 7px 13px -3px,  #00000033 0px -3px 0px inset;
+  /* box-shadow: #00000066 0px 2px 4px, */
+  /* #0000004d 0px 7px 13px -3px,  #00000033 0px -3px 0px inset; */
+  box-shadow: 5px 5px 7px #00000066,5px 5px 7px #00000066, inset 5px 5px 7px #220b0b66;
 }
 .avatar--letter {
   background-color: var(--primary-color);
